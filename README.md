@@ -693,6 +693,16 @@ npm run dev
 
 This serves the content of the `example` folder and watches changes inside the `src` folder. The examples are using the source of the `src` folder.
 
+## Online one-click setup
+
+You can use [Gitpod](https://www.gitpod.io/) (an Online Open Source VS Code-like IDE which is free for Open Source) for working on issues and making PRs to this project. With a single click it will launch a workspace and automatically:
+
+- clone this repo.
+- install all the dependencies in `/`, `/example` and `/website`.
+- run `npm run dev` in the root and `npm start` in `/website`.
+
+so that you can start hacking around straight away without any friction.
+
 # Testing
 
 Testing is done with cypress. You can find the tests in the [`integration/flow`](/cypress/integration/flow) folder. In order to run the tests do:
